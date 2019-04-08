@@ -7,9 +7,20 @@
 //
 
 #include <iostream>
+#include "day01/XTDayOne.cpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+
+    ///< 数据结构相关
+    DataType dtype;
+    dtype.dateTypePrint();
+    dtype.enumDemo();
+    dtype.defineDemo();
+    
+    ///< 指针
+    PointerClass pointer;
+    pointer.ThePointer();
+    
     return 0;
 }
